@@ -59,7 +59,7 @@ Settings Styler mod. The following themes are available:
 
 | Link  | Screenshot
 | ----- | ----------
-| [Densy](Themes/Densy/ReadMe.md) | [![Densy](Themes/Densy/screenshot.png)](Themes/Densy/screenshot.png)
+| [Densy](Themes/Densy/README.md) | [![Densy](Themes/Densy/screenshot.png)](Themes/Densy/screenshot.png)
 
 ## General
 
