@@ -59,8 +59,8 @@ Settings Styler mod. The following themes are available:
 
 | Link  | Screenshot
 | ----- | ----------
-| [Densy](Themes/Densy/README.md) | [![Densy](Themes/Densy/screenshot.png)](Themes/Densy/screenshot.png)
-| [ClassicSearchBar](Themes/ClassicSearchBar/README.md) | [![ClassicSearchBar](Themes/ClassicSearchBar/screenshot.png)](Themes/ClassicSearchBar/screenshot.png)
+| [Densy](Themes/Densy/README.md) | [![Densy](Themes/Densy/screenshot-small.png)](Themes/Densy/screenshot.png)
+| [ClassicSearchBar](Themes/ClassicSearchBar/README.md) | [![ClassicSearchBar](Themes/ClassicSearchBar/screenshot-small.png)](Themes/ClassicSearchBar/screenshot.png)
 
 ## General
 
