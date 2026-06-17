@@ -81,6 +81,7 @@ Orientation=1
 ```
 
 Then you might want to add space between the 2 text elements, and match the text size/color
+
 Target:
 ```
 ItemsStackPanel > SystemSettings.View.SettingsListViewItem > Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter > SystemSettings.View.EntityItem > Grid > SystemSettings.View.ReservedWidthReflowingPanel > StackPanel > ContentPresenter#SubtitleContent
@@ -110,6 +111,7 @@ Orientation=0
 ### Content Region
 
 To set a background to the content region
+
 Target:
 ```
 SplitView#RootSplitView > Grid > Grid#ContentRoot > Border > Grid#ContentGrid
@@ -122,6 +124,7 @@ Background=#80FF0830
 ### Path Header Grid
 
 To change the path advancing direction and alignment
+
 Target:
 ```
 Grid#ContentRoot > Border > Grid#ContentGrid > ContentControl#HeaderContent
