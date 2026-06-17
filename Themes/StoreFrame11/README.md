@@ -10,7 +10,7 @@ This theme makes the Settings window use a frame that matches the Microsoft Stor
   <tr>
     <td style="height:20%; text-align:center;"><img src="screenshot-tinywindow.png" style="width:auto; height:100%; display:block; margin:auto;"></td>
     <td style="height:20%; text-align:center;"><img src="screenshot-storage.png" style="width:auto; height:100%; display:block; margin:auto;"></td>
-    <td style="height:100%; text-align:center;"><img src="sidebar-demo.gif" style="width:500; height:100%; display:block; margin:auto;"></td>
+    <td style="height:100%; text-align:center;"><img src="sidebar-demo.gif" style="width:auto; height:100%; display:block; margin:auto;"></td>
   </tr>
 </table>
 
