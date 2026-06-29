@@ -20,45 +20,45 @@ styleConstants:
 controlStyles:
   - target: Frame#PermanentNavRootFrame
     styles:
-      - Background=#03A5FC
+      - Background:=#03A5FC
   - target: SystemSettings.View.EntityItem
     styles:
-      - Background=#0373FC
-      - Foreground=White
+      - Background:=#0373FC
+      - Foreground:=White
   - target: Microsoft.UI.Xaml.Controls.NavigationView#PermanentNavigationView
     styles:
-      - Background=#03ADFC
-      - Foreground=White
+      - Background:=#03ADFC
+      - Foreground:=White
   - target: ContentPresenter
     styles:
-      - Foreground=Black
+      - Foreground:=Black
   - target: ContentPresenter#SubtitleContent
     styles:
-      - Foreground=White
+      - Foreground:=White
   - target: StackPanel#BackgroundStackPanel
     styles:
-      - Background=Blue
+      - Background:=Blue
   - target: TextBlock#TitleContent
     styles:
-      - Foreground=White
+      - Foreground:=White
   - target: ContentPresenter#TitleContent
     styles:
-      - Foreground=White
+      - Foreground:=White
   - target: ContentPresenter#IconContentPresenter
     styles:
-      - Foreground=White
+      - Foreground:=White
   - target: Button#ContainerButton
     styles:
-      - Background=Blue
+      - Background:=Blue
   - target: SystemSettings.View.ReactNativeExperienceViewControl
     styles:
-      - Background=Blue
+      - Background:=Blue
   - target: SystemSettings.View.TwoSegmentsHeroUserControl#OneSegmentHeroEntityItemUserControl
     styles:
-      - Background=DeepSkyBlue
+      - Background:=DeepSkyBlue
   - target: SystemSettings.View.SettingsNavigationViewItem > Grid#NVIRootGrid > NavigationViewItemPresenter > Grid#LayoutRoot > Grid#PresenterContentRootGrid > Grid#ContentGrid > ContentPresenter > TextBlock
     styles:
-      - Foreground=White
+      - Foreground:=White
 themeResourceVariables:
   - ''
 ```
