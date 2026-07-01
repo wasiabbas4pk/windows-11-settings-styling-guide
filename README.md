@@ -63,8 +63,8 @@ Settings Styler mod. The following themes are available:
 | ----- | ----------
 | [Densy](Themes/Densy/README.md) | [![Densy](Themes/Densy/screenshot-small.png)](Themes/Densy/screenshot.png)
 | [ClassicSearchBar](Themes/ClassicSearchBar/README.md) | [![ClassicSearchBar](Themes/ClassicSearchBar/screenshot-small.png)](Themes/ClassicSearchBar/screenshot.png)
-| [StoreFrame11](Themes/StoreFrame11/README.md) | [![ClassicSearchBar](Themes/StoreFrame11/screenshot-small.png)](Themes/StoreFrame11/screenshot.png)
-| [Blue](Themes/Blue/README.md) | <img src="Themes/Blue/screenshot.png" width="400" height="300"/>
+| [StoreFrame11](Themes/StoreFrame11/README.md) | [![StoreFrame11](Themes/StoreFrame11/screenshot-small.png)](Themes/StoreFrame11/screenshot.png)
+| [Blue](Themes/Blue/README.md) | [![Blue](Themes/Blue/screenshot-small.png)](Themes/Blue/screenshot.png)
 
 ## General
 
