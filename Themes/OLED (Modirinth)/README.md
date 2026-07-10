@@ -4,11 +4,22 @@ Author: [wasiabbas4pk](https://github.com/wasiabbas4pk)
 
 This theme makes the Windows 11 Settings app look like the Modrinth(Minecraft Launcher) app. It comes in two variants: OLED Green (Modrinth), which is the default look of Modrinth, and OLED Accent Color (Modrinth), where users can change the UI color by navigating to the Windows accent color settings!
 
-# Previews
+# Modirinth Green Previews
 
-![Preview-1](screenshot.png)
+This is preview of Modirinth-like Green colour matching OLED green theme of Modirinth Minecraft launcher app.
 
-![Preview-2](Screenshot-1.png)
+![Green-Preview-1](screenshot-green.png)
+
+![Green-Preview-2](screenshot-1-green.png)
+
+
+# Custom Ascent Colour Previews
+
+The colour in this variant can be customized by navigating to Windows Settings > Personalization > Colours, and chosing a desirable colour.
+
+![Ascent-Preview-1](screenshot-ascent.png)
+
+![Ascent-Preview-2](screenshot-1-ascent.png)
 
 
 # Theme selection
