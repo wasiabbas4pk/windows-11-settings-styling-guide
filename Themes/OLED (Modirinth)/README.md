@@ -842,7 +842,7 @@ themeResourceVariables:
 ```
 </details>
 
-## OLED Ascent Color (Modirinth) Configuration
+## OS26 Liquid Glass (Taskbar) Configuration
 
 <details>
 <summary>Content to import (click to expand)</summary>
