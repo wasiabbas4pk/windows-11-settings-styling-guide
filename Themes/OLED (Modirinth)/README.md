@@ -853,7 +853,7 @@ themeResourceVariables:
 ```
 </details>
 
-## OLED Green (System Ascent Color) Configuration
+## OLED System Ascent Color Configuration
 
 <details>
 <summary>Content to import (click to expand)</summary>
