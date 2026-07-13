@@ -30,6 +30,9 @@ controlStyles:
   - target: SystemSettings.View.SettingsExpander > Grid > SystemSettings.View.ExpanderToggleButton#ContainerButton > ContentPresenter#ContentPresenter
     styles:
       - CornerRadius:=12,12,12,12
+  - target: SystemSettings.View.SpacingStackPanel > ContentPresenter > SystemSettings.View.EntityItem > Grid
+    styles:
+      - CornerRadius:=12      
   - target: SystemSettings.View.SettingsExpander > Grid > ContentPresenter#RevealedContent
     styles:
       - CornerRadius:=12
