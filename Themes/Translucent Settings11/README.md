@@ -19,7 +19,6 @@ To import the theme styles:
 
 ```yaml
 
-theme: ''
 styleConstants:
   - OutRadius=8
   - InRadius=12
@@ -32,7 +31,14 @@ controlStyles:
       - CornerRadius:=12,12,12,12
   - target: SystemSettings.View.SpacingStackPanel > ContentPresenter > SystemSettings.View.EntityItem > Grid
     styles:
-      - CornerRadius:=12      
+      - CornerRadius:=12   
+  - target: SystemSettings.View.EntityItem#BluetoothRadioToggleEntityItem > Grid
+    styles:
+      - CornerRadius:=12   
+  - target: SystemSettings.View.TwoSegmentsHeroUserControl#DefaultOneSegmentHeroUserControl > Grid#LayoutRoot > Grid#LeftLayout > ContentPresenter > ItemsControl > ItemsPresenter > StackPanel > ContentPresenter > StackPanel > Button > ContentPresenter#ContentPresenter
+    styles:
+      - CornerRadius:=12   
+      - Width=250
   - target: SystemSettings.View.SettingsExpander > Grid > ContentPresenter#RevealedContent
     styles:
       - CornerRadius:=12
