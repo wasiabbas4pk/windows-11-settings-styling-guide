@@ -1,6 +1,6 @@
 # Modirinth Settings Style for Windows 11 Settings App
 
-Author: [wasiabbas4pk](https://github.com/wasiabbas4pk)
+Author: [WasiXGamer](https://github.com/wasixgamer)
 
 This theme makes the Windows 11 Settings app look like the Modrinth(Minecraft Launcher) app. It comes in two variants: OLED Green (Modrinth), which is the default look of Modrinth, and OLED Accent Color (Modrinth), where users can change the UI color by navigating to the Windows accent color settings!
 
