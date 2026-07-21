@@ -862,7 +862,13 @@ themeResourceVariables:
 
 ```yaml
 
+theme: ''
+styleConstants:
+  - ''
 controlStyles:
+  - target: ScrollViewer > ScrollContentPresenter > Border > Frame > ContentPresenter > SystemSettings.View.RootPage > Grid#RootPageGrid > Microsoft.UI.Xaml.Controls.NavigationView#PermanentNavigationView > Grid#RootGrid > Grid > SplitView#RootSplitView > Grid > Grid#ContentRoot > Border > Grid#ContentGrid > ContentPresenter#ContentPresenter > Frame#PermanentNavRootFrame > ContentPresenter > SystemSettings.View.CategoryPage > Grid > ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > Grid > SystemSettings.View.AlignableContentControl > ContentPresenter > SystemSettings.View.SettingsListView#settingPagesList > ItemsPresenter > ItemsStackPanel > SystemSettings.View.SettingsListViewItem > Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter
+    styles:
+      - CornerRadius=12
   - target: Border > Frame > ContentPresenter > SystemSettings.View.RootPage > Grid#RootPageGrid > Microsoft.UI.Xaml.Controls.NavigationView#PermanentNavigationView > Grid#RootGrid > Grid > SplitView#RootSplitView > Grid > Grid#ContentRoot > Border > Grid#ContentGrid > ContentPresenter#ContentPresenter
     styles:
       - Margin=2
@@ -874,7 +880,7 @@ controlStyles:
       - Margin=-12,8,0,0
   - target: TextBox#CommandSearchTextBox > Grid > Button#DeleteButton > Grid#ButtonLayoutGrid
     styles:
-      - CornerRadius=
+      - CornerRadius=$InRadius
       - MinHeight=32
   - target: SplitView#RootSplitView > Grid > Grid#PaneRoot > Border > Grid#PaneContentGrid > Grid#ItemsContainerGrid > Microsoft.UI.Xaml.Controls.ItemsRepeaterScrollHost > ScrollViewer#MenuItemsScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > Microsoft.UI.Xaml.Controls.ItemsRepeater#MenuItemsHost > SystemSettings.View.SettingsNavigationViewItem > Grid#NVIRootGrid > Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter#NavigationViewItemPresenter > Grid#LayoutRoot > Grid#PresenterContentRootGrid > Grid#ContentGrid > ContentPresenter#ContentPresenter > TextBlock
     styles:
@@ -967,7 +973,7 @@ controlStyles:
   - target: ContentControl#PaneCustomContentBorder > ContentPresenter > SystemSettings.View.SpacingStackPanel > SystemSettings.View.UserProfileControl#UserProfileControl > Button#UserProfileButton > ContentPresenter#ContentPresenter > Grid#UserProfileLayout > Grid#UserImageGrid > Image
     styles:
       - Width=30
-      - Height=30   
+      - Height=30
   - target: SplitView#RootSplitView > Grid > Grid#PaneRoot > Border > Grid#PaneContentGrid > ContentControl#PaneCustomContentBorder > ContentPresenter > SystemSettings.View.SpacingStackPanel
     styles:
       - MaxHeight=48
@@ -1001,7 +1007,7 @@ controlStyles:
       - Height=16
   - target: Windows.UI.Xaml.Controls.StackPanel#TopBreakdownBar > Windows.UI.Xaml.Controls.ProgressBar
     styles:
-      - Height=16  
+      - Height=16
   - target: CheckBox > Grid#RootGrid@CombinedStates > Grid > Rectangle#NormalRectangle
     styles:
       - StrokeThickness=1
@@ -1009,23 +1015,23 @@ controlStyles:
       - Fill@UncheckedNormal=black
       - Fill@UncheckedPointerOver=black
       - Fill@UncheckedPointerOverSelected=black
-      - Fill@CheckedNormal:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
-      - Fill@CheckedPointerOver:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
-      - Fill@CheckedPointerOverSelected:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
+      - Fill@CheckedNormal=<SolidColorBrush Color="{ThemeResource Accent}"/>
+      - Fill@CheckedPointerOver=<SolidColorBrush Color="{ThemeResource Accent}"/>
+      - Fill@CheckedPointerOverSelected=<SolidColorBrush Color="{ThemeResource Accent}"/>
       - RadiusX=6
       - RadiusY=6
   - target: SystemSettings.View.AlignableContentControl > ContentPresenter > Grid > SystemSettings.View.AlignableContentControl > ContentPresenter > SystemSettings.View.WatermarkTextBox > Grid > Border#BorderElement
     styles:
-      - Background=#1A1A1F
+      - Background=#0D0D0D
       - CornerRadius=12
-      - BorderThickness=0 
+      - BorderThickness=0
   - target: SystemSettings.View.ReservedWidthReflowingPanel > ContentPresenter#InlineContentPresenter > SystemSettings.View.HighContrastThemesCombobox
     styles:
       - BorderBrush:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
       - BorderThickness=3
       - Background=Black
       - Foreground:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
-      - CornerRadius=12 
+      - CornerRadius=12
   - target: SystemSettings.View.ReservedWidthReflowingPanel > ContentPresenter#InlineContentPresenter > SystemSettings.View.HighContrastThemesCombobox > Grid#LayoutRoot > ContentPresenter#ContentPresenter > TextBlock
     styles:
       - FontWeight=Bold
@@ -1043,15 +1049,14 @@ controlStyles:
       - BorderThickness=3
       - Background=Black
       - Foreground:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
-      - CornerRadius=12 
+      - CornerRadius=12
   - target: ContentPresenter#InlineContentPresenter > Button > ContentPresenter#ContentPresenter
     styles:
       - BorderBrush:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
       - BorderThickness=3
       - Background=Black
       - Foreground:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
-      - CornerRadius=12 
-
+      - CornerRadius=12
   - target: SystemSettings.View.ReservedWidthReflowingPanel#ReflowingPanel > StackPanel > ContentPresenter#TitleContent > StackPanel > RadioButton > Grid#RootGrid > Grid > Windows.UI.Xaml.Shapes.Ellipse#CheckOuterEllipse
     styles:
       - Fill:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
@@ -1341,7 +1346,7 @@ controlStyles:
       - Foreground=White
   - target: SystemSettings.View.EntityItem
     styles:
-      - Background=#141417
+      - Background=#0D0D0D
       - Foreground=White
       - CornerRadius=12
   - target: SystemSettings.View.L2Page#L2Page > Grid > Grid > SystemSettings.View.AlignableContentControl > ContentPresenter > Grid > SystemSettings.View.SettingsPageHost#pageContent > ScrollViewer#SettingsPageHostPanel > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > Grid#RootScrollableGrid > Grid > Grid > ContentControl > ContentPresenter > ItemsControl > ItemsPresenter > SystemSettings.View.SpacingStackPanel > ContentPresenter > SystemSettings.View.AlignableContentControl > SystemSettings.View.SpacingStackPanel > SystemSettings.View.ExpandItemsControl > ItemsPresenter > SystemSettings.View.SpacingStackPanel > ContentPresenter > SystemSettings.View.SettingsListItemsRepeater > ScrollViewer#SettingsListScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > Microsoft.UI.Xaml.Controls.ItemsRepeater#ItemsRepeater > SystemSettings.View.SettingsExpander > Grid > SystemSettings.View.ExpanderToggleButton#ContainerButton > ContentPresenter#ContentPresenter > Grid > ContentPresenter > SystemSettings.View.EntityItem#EntityExpandableListItem > Grid > SystemSettings.View.ReservedWidthReflowingPanel > ContentPresenter#InlineContentPresenter > StackPanel > Button > ContentPresenter#ContentPresenter
@@ -1360,22 +1365,22 @@ controlStyles:
       - CornerRadius=10
   - target: SystemSettings.View.L2Page#L2Page > Grid > Grid > SystemSettings.View.AlignableContentControl > ContentPresenter > Grid > SystemSettings.View.SettingsPageHost#pageContent > ScrollViewer#SettingsPageHostPanel > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > Grid#RootScrollableGrid > Grid > Grid > ContentControl > ContentPresenter > ItemsControl > ItemsPresenter > SystemSettings.View.SpacingStackPanel > ContentPresenter > SystemSettings.View.AlignableContentControl > SystemSettings.View.SpacingStackPanel > SystemSettings.View.ExpandItemsControl > ItemsPresenter > SystemSettings.View.SpacingStackPanel > ContentPresenter > SystemSettings.View.ButtonEntityItem > Button#ContainerButton > ContentPresenter#ContentPresenter
     styles:
-      - Background=#141417
-      - Background@PointerOver=#141417
+      - Background=#0D0D0D
+      - Background@PointerOver=#0D0D0D
       - CornerRadius=12
   - target: SystemSettings.View.L2Page#L2Page > Grid > Grid > SystemSettings.View.AlignableContentControl > ContentPresenter > Grid > SystemSettings.View.SettingsPageHost#pageContent > ScrollViewer#SettingsPageHostPanel > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > Grid#RootScrollableGrid > Grid > Grid > ContentControl > ContentPresenter > ItemsControl > ItemsPresenter > SystemSettings.View.SpacingStackPanel > ContentPresenter > SystemSettings.View.AlignableContentControl > SystemSettings.View.SpacingStackPanel > SystemSettings.View.ExpandItemsControl > ItemsPresenter > SystemSettings.View.SpacingStackPanel > ContentPresenter > SystemSettings.View.AlignableContentControl > SystemSettings.View.SpacingStackPanel > SystemSettings.View.ExpandItemsControl > ItemsPresenter > SystemSettings.View.SpacingStackPanel > ContentPresenter > SystemSettings.View.ButtonEntityItem > Button#ContainerButton > ContentPresenter#ContentPresenter
     styles:
-      - Background=#141417
-      - Background@PointerOver=#141417
+      - Background=#0D0D0D
+      - Background@PointerOver=#0D0D0D
       - CornerRadius=12
   - target: SystemSettings.View.L2Page#L2Page > Grid > Grid > SystemSettings.View.AlignableContentControl > ContentPresenter > Grid > SystemSettings.View.SettingsPageHost#pageContent > ScrollViewer#SettingsPageHostPanel > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > Grid#RootScrollableGrid > Grid > Grid > ContentControl > ContentPresenter > ItemsControl > ItemsPresenter > SystemSettings.View.SpacingStackPanel > ContentPresenter > SystemSettings.View.AlignableContentControl > SystemSettings.View.SpacingStackPanel > SystemSettings.View.ExpandItemsControl > ItemsPresenter > SystemSettings.View.SpacingStackPanel > ContentPresenter > StackPanel > ContentPresenter > SystemSettings.View.ButtonEntityItem > Button#ContainerButton > ContentPresenter#ContentPresenter
     styles:
-      - Background=#141417
-      - Background@PointerOver=#141417
+      - Background=#0D0D0D
+      - Background@PointerOver=#0D0D0D
       - CornerRadius=12
   - target: StackPanel#BackgroundStackPanel
     styles:
-      - Background=#1A1A1F
+      - Background=#0D0D0D
       - CornerRadius=12
   - target: Rectangle#SelectionIndicator
     styles:
@@ -1553,7 +1558,7 @@ controlStyles:
       - Height=48
       - Margin=8,0,8,0
       - Padding= -4
-      - Background@PointerOver=#1A1A1F
+      - Background@PointerOver=#0D0D0D
       - Background@Pressed:=<SolidColorBrush Color="{ThemeResource SystemAccentColorDark3}" />
       - Background@Selected:=<SolidColorBrush Color="{ThemeResource SystemAccentColorDark3}" />
       - Background@PointerOverSelected:=<SolidColorBrush Color="{ThemeResource SystemAccentColorDark3}" />
@@ -1603,7 +1608,7 @@ controlStyles:
       - CornerRadius=25
   - target: SystemSettings.View.SettingsExpander > Grid > SystemSettings.View.ExpanderToggleButton#ContainerButton > ContentPresenter#ContentPresenter
     styles:
-      - Background=#141417
+      - Background=#0D0D0D
       - CornerRadius=12,12,12,12
       - Margin=0,2,0,0
   - target: Windows.UI.Xaml.Controls.StackPanel#SettingsCommandSearchBoxBackground
